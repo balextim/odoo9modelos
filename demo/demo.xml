@@ -1,0 +1,156 @@
+<odoo>
+    <data>
+        <!--Datos demo de los productos-->
+          <record id="object0" model="odoo288w.modelo288w">
+            <field name="name">0</field>
+            <field name="tipo">Lavadora</field>
+            <field name="altura">1.30 metros</field>
+            <field name="ancho">1 metros</field>
+            <field name="profundidad">1 metros</field>
+          </record>
+
+          <record id="object1" model="odoo288w.modelo288w">
+            <field name="name">1</field>
+            <field name="tipo">Lavadora</field>
+            <field name="altura">1.30 metros</field>
+            <field name="ancho">1 metros</field>
+            <field name="profundidad">1 metros</field>
+          </record>
+
+          <record id="object2" model="odoo288w.modelo288w">
+            <field name="name">2</field>
+            <field name="tipo">Microondas</field>
+            <field name="altura">70 centímetros</field>
+            <field name="ancho">90 centímetros</field>
+            <field name="profundidad">90 centímetros</field>
+          </record>
+
+          <record id="object3" model="odoo288w.modelo288w">
+            <field name="name">3</field>
+            <field name="tipo">Microondas</field>
+            <field name="altura">70 centímetros</field>
+            <field name="ancho">90 centímetros</field>
+            <field name="profundidad">90 centímetros</field>
+          </record>
+
+          <record id="object4" model="odoo288w.modelo288w">
+            <field name="name">4</field>
+            <field name="tipo">Televisión</field>
+            <field name="altura">1.50 metros</field>
+            <field name="ancho">2 metros</field>
+            <field name="profundidad">15 centímetros</field>
+          </record>
+
+          <record id="object5" model="odoo288w.modelo288w">
+            <field name="name">5</field>
+            <field name="tipo">Estufa</field>
+            <field name="altura">50 centímetros</field>
+            <field name="ancho">80 centímetros</field>
+            <field name="profundidad">25 centímetros</field>
+          </record>
+
+        <!--Datos demo de los proveedores-->
+          <record id="object0" model="odoo288w.proveedores">
+            <field name="name">0</field>
+            <field name="nombre_proveedor">Daniel</field>
+            <field name="tipo_producto">Lavadora</field>
+            <field name="unidades_repartidas">16</field>
+            <field name="mes">01</field>
+          </record>
+
+          <record id="object1" model="odoo288w.proveedores">
+            <field name="name">1</field>
+            <field name="nombre_proveedor">Jhon</field>
+            <field name="tipo_producto">Microondas</field>
+            <field name="unidades_repartidas">10</field>
+            <field name="mes">01</field>
+          </record>
+
+          <record id="object2" model="odoo288w.proveedores">
+            <field name="name">2</field>
+            <field name="nombre_proveedor">David</field>
+            <field name="tipo_producto">Lavadora</field>
+            <field name="unidades_repartidas">20</field>
+            <field name="mes">02</field>
+          </record>
+
+          <record id="object3" model="odoo288w.proveedores">
+            <field name="name">3</field>
+            <field name="nombre_proveedor">Andrés</field>
+            <field name="tipo_producto">Microondas</field>
+            <field name="unidades_repartidas">13</field>
+            <field name="mes">01</field>
+          </record>
+
+          <record id="object4" model="odoo288w.proveedores">
+            <field name="name">4</field>
+            <field name="nombre_proveedor">Ruben</field>
+            <field name="tipo_producto">Microondas</field>
+            <field name="unidades_repartidas">16</field>
+            <field name="mes">02</field>
+          </record>
+
+          <record id="object5" model="odoo288w.proveedores">
+            <field name="name">5</field>
+            <field name="nombre_proveedor">Victor</field>
+            <field name="tipo_producto">Lavadora</field>
+            <field name="unidades_repartidas">16</field>
+            <field name="mes">02</field>
+          </record>
+
+        <!--Datos demo de las tiendas-->
+          <record id="object0" model="odoo288w.tiendas">
+            <field name="name">0</field>
+            <field name="nombre_tienda">miniMarket</field>
+            <field name="tipo_producto">Lavadora</field>
+            <field name="unidades_facilitadas">16</field>
+            <field name="id_proveedor">0</field>
+            <field name="mes">01</field>
+          </record>
+
+          <record id="object1" model="odoo288w.tiendas">
+            <field name="name">1</field>
+            <field name="nombre_tienda">joels market</field>
+            <field name="tipo_producto">Microondas</field>
+            <field name="unidades_facilitadas">10</field>
+            <field name="id_proveedor">1</field>
+            <field name="mes">01</field>
+          </record>
+
+          <record id="object2" model="odoo288w.tiendas">
+            <field name="name">2</field>
+            <field name="nombre_tienda">Electron</field>
+            <field name="tipo_producto">Lavadora</field>
+            <field name="unidades_facilitadas">20</field>
+            <field name="id_proveedor">2</field>
+            <field name="mes">02</field>
+          </record>
+
+          <record id="object3" model="odoo288w.tiendas">
+            <field name="name">3</field>
+            <field name="nombre_tienda">Hiper House</field>
+            <field name="tipo_producto">Microondas</field>
+            <field name="unidades_facilitadas">13</field>
+            <field name="id_proveedor">3</field>
+            <field name="mes">01</field>
+          </record>
+
+          <record id="object4" model="odoo288w.tiendas">
+            <field name="name">4</field>
+            <field name="nombre_tienda">Electrodomesticos sa</field>
+            <field name="tipo_producto">Microondas</field>
+            <field name="unidades_facilitadas">16</field>
+            <field name="id_proveedor">4</field>
+            <field name="mes">02</field>
+          </record>
+
+          <record id="object5" model="odoo288w.tiendas">
+            <field name="name">5</field>
+            <field name="nombre_tienda">Alcampo</field>
+            <field name="tipo_producto">Lavadora</field>
+            <field name="unidades_facilitadas">16</field>
+            <field name="id_proveedor">5</field>
+            <field name="mes">02</field>
+          </record>
+    </data>
+</odoo>

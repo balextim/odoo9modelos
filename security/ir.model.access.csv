@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_odoo288w_modelo288w_usuario,odoo288w.modelo288w.usuario,model_odoo288w_modelo288w,odoo288w.group_odoo288w_usuario,1,0,0,0
+access_odoo288w_modelo288w_administrador,odoo288w.modelo288w.administrador,model_odoo288w_modelo288w,odoo288w.group_odoo288w_administrador,1,1,1,1_
+access_odoo288w_proveedores_usuario,odoo288w.proveedores.usuario,model_odoo288w_proveedores,odoo288w.group_odoo288w_usuario,1,0,0,0
+access_odoo288w_proveedores_administrador,odoo288w.proveedores.administrador,model_odoo288w_proveedores,odoo288w.group_odoo288w_administrador,1,1,1,1_
+access_odoo288w_tiendas_usuario,odoo288w.tiendas.usuario,model_odoo288w_tiendas,odoo288w.group_odoo288w_usuario,1,0,0,0
+access_odoo288w_tiendas_administrador,odoo288w.tiendas.administrador,model_odoo288w_tiendas,odoo288w.group_odoo288w_administrador,1,1,1,1_
